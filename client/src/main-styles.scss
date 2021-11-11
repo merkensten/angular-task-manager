@@ -1,0 +1,35 @@
+/* Font Imports */
+
+/* Montserrat regular and bold */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+/* Base styling */
+
+// Colors
+$turquoise: #44ddd0;
+$green: #27d7a1;
+$light-green: #45f69e;
+$light: #f8f8f8;
+$dark-green: rgb(0, 100, 80);
+
+// Bulmas global variables
+$family-sans-serif: "Montserrat", sans-serif;
+$primary: $green;
+
+$link: $light-green;
+
+// Bulmas component variables
+
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+// Set custom global styles
+html {
+  background: linear-gradient(to right top, $turquoise, $green);
+}
+
+html,
+body {
+  height: 100%;
+}
